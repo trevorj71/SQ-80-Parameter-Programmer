@@ -10,14 +10,14 @@ I do have further revisions in mind for the firmware to add access to more progr
 
 A BOM wiill be forthcoming when I have a few minutes to add it.
 
-# Glitch Mode (Hidden Waveforms)
+## Glitch Mode (Hidden Waveforms)
 
 To be added
 
-# Arch Mode (SQ-80 / ESQ-1) Toggle
+## Arch Mode (SQ-80 / ESQ-1) Toggle
 
 To be added
 
-# Potentiometer Layout
+## Potentiometer Layout
 
 To be added. 
