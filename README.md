@@ -10,7 +10,7 @@ I do have further revisions in mind for the firmware to add access to more progr
 
 A BOM wiill be forthcoming when I have a few minutes to add it.
 
-# Glitch Mode (Hidden Waveforme)
+# Glitch Mode (Hidden Waveforms)
 
 To be added
 
