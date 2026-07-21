@@ -1,0 +1,56 @@
+### Footprint positions - created on 2026-07-01T05:30:06 ###
+### Printed by KiCad version 10.0.3
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val                  Package                                                 PosX       PosY       Rot  Side
+A1        Arduino_Nano_Every   Arduino_Nano                                        218.9450   -41.8600  -90.0000  bottom
+C1        0.1uf_Tant           CP_Radial_Tantal_D5.0mm_P2.50mm                     205.3000   -72.0000  180.0000  bottom
+C2        0.1uf_Tant           CP_Radial_Tantal_D5.0mm_P2.50mm                     224.6250  -104.2250  180.0000  bottom
+C3        10uf                 CP_Radial_D5.0mm_P2.00mm                            228.6801   -36.6750  180.0000  bottom
+D1        1N4148               D_DO-35_SOD27_P7.62mm_Horizontal                    112.1250   -37.6050  -90.0000  bottom
+J1        MIDI_IN              CONN5_SDS-50J_CUD                                    83.8166   -46.5491    0.0000  bottom
+J2        MIDI_OUT/THRU        CONN5_SDS-50J_CUD                                    58.5666   -46.5240    0.0000  bottom
+R1        220                  R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal   117.1250   -51.8450   90.0000  bottom
+R2        220                  R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal    83.6450   -52.3500  180.0000  bottom
+R3        220                  R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal   122.1100   -51.4400   90.0000  bottom
+R4        4.7K                 R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal    93.1250   -36.6050  -90.0000  bottom
+R7        10K                  R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal   209.2650   -37.0000  180.0000  bottom
+U1        MUX_1                SOIC-24W_7.5x15.4mm_P1.27mm                         177.1250   -63.7250    0.0000  bottom
+U2        MUX_2                SOIC-24W_7.5x15.4mm_P1.27mm                         234.4750  -110.6700    0.0000  bottom
+U3        6N138                DIP-8_W7.62mm                                       107.1250   -38.2250  180.0000  bottom
+RV1       10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical        42.3250   -71.7250    0.0000  top
+RV2       10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical        70.9679   -71.7250    0.0000  top
+RV3       10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical        99.6107   -71.7250    0.0000  top
+RV4       10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical       128.2536   -71.7250    0.0000  top
+RV5       10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical       156.8964   -71.7250    0.0000  top
+RV6       10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical       185.5393   -71.7250    0.0000  top
+RV7       10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical       214.1821   -71.7250    0.0000  top
+RV8       10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical       242.8250   -71.7250    0.0000  top
+RV9       10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical        42.5750   -95.0583    0.0000  top
+RV10      10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical        71.1464   -95.0583    0.0000  top
+RV11      10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical        99.7179   -95.0583    0.0000  top
+RV12      10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical       128.2893   -95.0583    0.0000  top
+RV13      10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical       156.8607   -95.0583    0.0000  top
+RV14      10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical       185.4321   -95.0583    0.0000  top
+RV15      10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical       214.0036   -95.0583    0.0000  top
+RV16      10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical       242.5750   -95.0583    0.0000  top
+RV17      10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical        42.6000  -118.3917    0.0000  top
+RV18      10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical        71.1643  -118.3917    0.0000  top
+RV19      10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical        99.7286  -118.3917    0.0000  top
+RV20      10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical       128.2929  -118.3917    0.0000  top
+RV21      10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical       156.8571  -118.3917    0.0000  top
+RV22      10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical       185.4214  -118.3917    0.0000  top
+RV23      10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical       213.9857  -118.3917    0.0000  top
+RV24      10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical       242.5500  -118.3917    0.0000  top
+RV25      10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical        42.5750  -141.7250    0.0000  top
+RV26      10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical        71.1464  -141.7250    0.0000  top
+RV27      10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical        99.7179  -141.7250    0.0000  top
+RV28      10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical       128.2893  -141.7250    0.0000  top
+RV29      10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical       156.8607  -141.7250    0.0000  top
+RV30      10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical       185.4321  -141.7250    0.0000  top
+RV31      10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical       214.0036  -141.7250    0.0000  top
+RV32      10K                  Potentiometer_Bourns_PTV09A-1_Single_Vertical       242.5750  -141.7250    0.0000  top
+SW1       ARCH_MODE            PinHeader_1x03_P2.54mm_Vertical                     201.1250   -41.4350    0.0000  top
+SW2       GLITCH_TRIG          SW_PUSH_6mm                                         180.1250   -41.7250    0.0000  top
+U4        ER_OLEDM0.91_1x-I2C  ER_OLEDM0.91_1x-I2C                                 131.1250   -47.5350   90.0000  top
+## End
