@@ -22,7 +22,7 @@ To be added
 
 # Potentiometer Layout
 
-Currently, the programmer has been laid out with 32 Potentiometers. You can access up to 64 parameters by pressing and holding the Hidden Waveforms button like a shift key.  
+Currently, the programmer has been laid out with 32 Potentiometers. You can access up to 63 parameters plus MIDI channel by pressing and holding the Hidden Waveforms button like a shift key.  
 
 The knob layout as of version 1.5 is as follows:
 
@@ -33,7 +33,7 @@ The knob layout as of version 1.5 is as follows:
 | WAVEFORM | WAVEFORM | WAVEFORM | DCA1 VOL | LFO1 WAVE | LFO2 FREQ | ENV1 ATK | ENV2 ATK 
 | OSC1 FINE | OSC2 FINE | OSC3 FINE | DCA2 VOL | LFO1 FREQ | LFO3 WAVE | ENV1 DEC | ENV2 DEC 
 | OSC1 COAR | OSC2 COAR | OSC3 COAR | DCA3 VOL | LFO1 DELY | LFO3 FREQ | ENV1 REL | ENV2 REL
-| OSC1 OCT | OSC2 OCT | OSC3 OCT | EVV4 VOL | LFO2 WAVE | LFO3 DELY | ENV1 SUS | ENV2 SUS 
+| OSC1 OCT | OSC2 OCT | OSC3 OCT | ENV4 VOL | LFO2 WAVE | LFO3 DELY | ENV1 SUS | ENV2 SUS 
 
 (GLITCH BUTTON HELD DOWN WHILE TURNING)
 
