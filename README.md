@@ -28,6 +28,4 @@ Currently, the programmer has been laid out with 32 Potentiometers. You can acce
 | Oscillator 1 | Oscillator 2 | Oscillator 3 | DCA-Filter | Modulation 1 | Modulation 2 | Envelope 1-3 | Envelope 2-4 
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | WAVEFORM | WAVEFORM | WAVEFORM | DCA1 VOL | LFO1 WAVE | LFO2 FREQ | ENV1 ATK | ENV2 ATK 
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | OSC1 FINE | OSC2 FINE | OSC3 FINE | DCA2 VOL | LFO1 FREQ | LFO3 WAVE | ENV1 DEC | ENV2 DEC 
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
