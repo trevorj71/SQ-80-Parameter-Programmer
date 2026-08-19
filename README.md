@@ -22,10 +22,24 @@ To be added
 
 # Potentiometer Layout
 
-Currently, the programmer has been laid out with 32 Potentiometers. You can access up to 64 parameters by pressing and holding the Hidden Waveforms button like a shift key.  The knob layout as of version 1.5 is as follows:
+Currently, the programmer has been laid out with 32 Potentiometers. You can access up to 64 parameters by pressing and holding the Hidden Waveforms button like a shift key.  
 
+The knob layout as of version 1.5 is as follows:
 
-| Oscillator 1 | Oscillator 2 | Oscillator 3 | DCA-Filter | Modulation 1 | Modulation 2 | Envelope 1-3 | Envelope 2-4 
+(GLITCH BUTTON IN THE UP POSITION - NOT PRESSED)
+
+| Oscillator 1 | Oscillator 2 | Oscillator 3 | DCA-Filter | MOD 1 | MOD 2 | ENV 1-3 | ENV 2-4 
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | WAVEFORM | WAVEFORM | WAVEFORM | DCA1 VOL | LFO1 WAVE | LFO2 FREQ | ENV1 ATK | ENV2 ATK 
 | OSC1 FINE | OSC2 FINE | OSC3 FINE | DCA2 VOL | LFO1 FREQ | LFO3 WAVE | ENV1 DEC | ENV2 DEC 
+| OSC1 COAR | OSC2 COAR | OSC3 COAR | DCA3 VOL | LFO1 DELY | LFO3 FREQ | ENV1 REL | ENV2 REL
+| OSC1 OCT | OSC2 OCT | OSC3 OCT | EVV4 VOL | LFO2 WAVE | LFO3 DELY | ENV1 SUS | ENV2 SUS 
+
+(GLITCH BUTTON HELD DOWN WHILE TURNING)
+
+| Oscillator 1 | Oscillator 2 | Oscillator 3 | DCA-Filter | MOD 1 | MOD 2 | ENV 1-3 | ENV 2-4 
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| WAVEFORM | WAVEFORM | WAVEFORM | DCA1 VOL | LFO1 WAVE | LFO2 FREQ | ENV1 ATK | ENV2 ATK 
+| OSC1 FINE | OSC2 FINE | OSC3 FINE | DCA2 VOL | LFO1 FREQ | LFO3 WAVE | ENV1 DEC | ENV2 DEC 
+| OSC1 COAR | OSC2 COAR | OSC3 COAR | DCA3 VOL | LFO1 DELY | LFO3 FREQ | ENV1 REL | ENV2 REL
+| OSC1 OCT | OSC2 OCT | OSC3 OCT | EVV4 VOL | LFO2 WAVE | LFO3 DELY | ENV1 SUS | ENV2 SUS 
