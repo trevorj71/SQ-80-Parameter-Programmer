@@ -12,13 +12,17 @@ My vision for this unit was always been a sidecar that can sit next to the synth
 These 3D models will be published here in both raw Fusion 360 and STL formats once they are completed. Likely, you could design a smaller housing for desktop, as mine is not necessarily designed
 to minimize its footprint or print time.
 
-# Glitch Mode (Hidden Waveforme)
+# Glitch Mode (Hidden Waveform) and Shift Switch
 
-To be added
+This momentary pushbutton switch, SW2, has two functions. 
+
+A quick tap of this swtich enables glitch mode. This allows knobs 1-3 (oscillator waveforms) to transmit all 255 available parameters to the synth. If you have an OS for your synth that supports hidden waveforms, you will be able to scroll through all 255 paramteters. This only works with the modified OS versions that support hidden waves.
+
+Pressing and holding this switch while also turning a knob makes it function as a shift key, letting you change the MIDI channel on your device or modify up to 63 parameters in your synthesis workflow. Failing to turn a knob while the switch is depressed reverts the programmer to Glitch Mode / Standard Mode.
 
 # Arch Mode (SQ-80 / ESQ-1) Toggle
 
-To be added
+A panel mounted toggle switch, SW1, facilitates switching between the 32 Wave ESQ-1 table and the 75 Wave SQ-80 Table. In standard mode, this aligns the values sent by the oscillator waveform knobs within the desired range for your model synth. In Glitch Mode, this is more a matter of the mask used for the OLED on parameters 33-75, since all 255 parameters can be transmitted to the synth.
 
 # Potentiometer Layout
 

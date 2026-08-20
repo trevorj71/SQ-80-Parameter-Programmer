@@ -3599,6 +3599,12 @@
 		(uuid "1cafc6bd-6247-400d-9f05-9c3ce72dd4e2")
 	)
 	(junction
+		(at 191.77 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f2414cf-46c5-41c3-86e9-c58bbc137bcd")
+	)
+	(junction
 		(at 154.94 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3614,7 +3620,7 @@
 		(at 184.15 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "678d0f93-1140-44e9-a261-12e50f81fc06")
+		(uuid "71b2ecfb-ea45-42ea-977c-2c56183aaef9")
 	)
 	(junction
 		(at 87.63 176.53)
@@ -3705,10 +3711,6 @@
 	(no_connect
 		(at 74.93 165.1)
 		(uuid "baf132aa-2dfb-4802-a0f9-a2b51e38e634")
-	)
-	(no_connect
-		(at 181.61 127)
-		(uuid "d146f155-d708-46cb-abda-e2881f341ce2")
 	)
 	(no_connect
 		(at 137.16 148.59)
@@ -4462,6 +4464,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 127) (xy 191.77 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c6c7685-bd31-48cb-aac8-fc324017f089")
+	)
+	(wire
+		(pts
 			(xy 237.49 119.38) (xy 243.84 119.38)
 		)
 		(stroke
@@ -4889,6 +4901,16 @@
 			(type default)
 		)
 		(uuid "b105a7ce-177f-424e-98f1-74fbf7550609")
+	)
+	(wire
+		(pts
+			(xy 184.15 143.51) (xy 185.42 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b293b444-2073-45f5-b589-3f3c1a19e0c4")
 	)
 	(wire
 		(pts
@@ -5542,6 +5564,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 132.08) (xy 184.15 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f400d773-236b-4506-96ed-8c34192a1177")
+	)
+	(wire
+		(pts
 			(xy 91.44 68.58) (xy 90.17 68.58)
 		)
 		(stroke
@@ -5669,16 +5701,6 @@
 			(type default)
 		)
 		(uuid "fd2eaaec-f867-4faa-a2b0-987c30047297")
-	)
-	(wire
-		(pts
-			(xy 184.15 132.08) (xy 191.77 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe163222-a152-42b1-8f9a-d97a6534b799")
 	)
 	(label "POT_27"
 		(at 96.52 101.6 0)
@@ -6591,7 +6613,7 @@
 		(uuid "f43a3fde-c25d-4b3a-a3e9-45c86e57e998")
 	)
 	(label "MIDI_RX"
-		(at 191.77 132.08 0)
+		(at 185.42 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12049,10 +12071,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5a6ecffb-ffca-4610-9a9d-17d2f5179720")
 		(property "Reference" "R4"
-			(at 186.69 126.9999 0)
+			(at 185.42 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12063,7 +12084,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 186.69 129.5399 0)
+			(at 185.42 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18622,6 +18643,87 @@
 			(project "SQ80_Hardware_Programmer"
 				(path "/0a1bab55-9cef-453b-9c94-64f0d74b9412"
 					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 191.77 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f8c879a9-fb00-4ad4-898d-d708eba8094a")
+		(property "Reference" "R5"
+			(at 193.04 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 193.04 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+			(at 189.992 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 191.77 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "83f565d6-b10b-4075-b469-c82fd9b0f5bb")
+		)
+		(pin "1"
+			(uuid "d3ef0a97-d9ea-4477-8143-5acdf9b2a9ef")
+		)
+		(instances
+			(project "SQ80_Hardware_Programmer"
+				(path "/0a1bab55-9cef-453b-9c94-64f0d74b9412"
+					(reference "R5")
 					(unit 1)
 				)
 			)
