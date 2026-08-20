@@ -4,7 +4,7 @@ This repo contains open source hardware and software for the Ensoniq SQ-80 and E
 
 I'm still tweaking the firmware to improve the knob layout and I have a new housing version in progress to accomodate a larger OLED display, but the current design is debugged and functional.
 
-A BOM wiill be forthcoming when I have a few minutes to add it.
+A BOM will be forthcoming when I have a few minutes to add it.
 
 # Housing
 
@@ -36,7 +36,7 @@ Currently, the programmer has been laid out with 32 Potentiometers. You can acce
 
 The knob layout as of version 1.5 is as follows:
 
-(GLITCH BUTTON IN THE UP POSITION - NOT PRESSED)
+### GLITCH BUTTON IN THE UP POSITION - NOT PRESSED
 
 | Oscillator 1 | Oscillator 2 | Oscillator 3 | DCA-Filter | MOD 1 | MOD 2 | ENV 1-3 | ENV 2-4 
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -45,7 +45,7 @@ The knob layout as of version 1.5 is as follows:
 | OSC1 COAR | OSC2 COAR | OSC3 COAR | DCA3 VOL | LFO1 DELY | LFO3 FREQ | ENV1 REL | ENV2 REL
 | OSC1 OCT | OSC2 OCT | OSC3 OCT | ENV4 VOL | LFO2 WAVE | LFO3 DELY | ENV1 SUS | ENV2 SUS 
 
-(GLITCH BUTTON HELD DOWN WHILE TURNING)
+### GLITCH BUTTON HELD DOWN WHILE TURNING
 
 | Oscillator 1 | Oscillator 2 | Oscillator 3 | DCA-Filter | MOD 1 | MOD 2 | ENV 1-3 | ENV 2-4 
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
