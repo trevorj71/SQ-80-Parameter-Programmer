@@ -1,8 +1,8 @@
 # PG-80 Crosswave Parameter Programmer for Ensoniq SQ-80 and Ensoniq ESQ1
 
-This repo contains open source hardware and software for the Ensoniq SQ-80 and ESQ-1 hybrid synthesizers.
+This repo contains open source hardware and software for the Ensoniq SQ-80 and ESQ-1 hybrid synthesizers. It allows you to program up to 63 parameters in your synthesis engine using the 32 knobs on the front panel. It also supports hidden waves if your synth is equipped with an OS that supports them on the front panel.
 
-I do have further revisions in mind for the firmware to add access to more programming parameters, but the current version is fully functional for up to 42.  
+I'm still tweaking the firmware to improve the knob layout and I have a new housing version in progress to accomodate a larger OLED display, but the current design is debugged and functional.
 
 A BOM wiill be forthcoming when I have a few minutes to add it.
 
@@ -11,6 +11,12 @@ A BOM wiill be forthcoming when I have a few minutes to add it.
 My vision for this unit was always been a sidecar that can sit next to the synth on a stand designed for a 76 key workstation and looks like an extension of the synth to the extent possible.
 These 3D models will be published here in both raw Fusion 360 and STL formats once they are completed. Likely, you could design a smaller housing for desktop, as mine is not necessarily designed
 to minimize its footprint or print time.
+
+## Prototype Version (Adafruit 326 and PCB Mounted MIDI Connections)
+
+
+## In Progress Updgraded Version (Adafruit ... and Panel Mounted MIDI Connecitons)
+
 
 # Glitch Mode (Hidden Waveform) and Shift Switch
 
@@ -22,7 +28,7 @@ Pressing and holding this switch while also turning a knob makes it function as 
 
 # Arch Mode (SQ-80 / ESQ-1) Toggle
 
-A panel mounted toggle switch, SW1, facilitates switching between the 32 Wave ESQ-1 table and the 75 Wave SQ-80 Table. In standard mode, this aligns the values sent by the oscillator waveform knobs within the desired range for your model synth. In Glitch Mode, this is more a matter of the mask used for the OLED on parameters 33-75, since all 255 parameters can be transmitted to the synth.
+A panel mounted toggle switch, SW1, facilitates switching between the 32 wave ESQ-1 table and the 75 wave SQ-80 table. In standard mode, this aligns the values sent by the oscillator waveform knobs within the desired range for your model synth. In Glitch Mode, this is more a matter of the mask used for the OLED on parameters 33-75, since all 255 parameters can be transmitted to the synth.
 
 # Potentiometer Layout
 
