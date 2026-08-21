@@ -1,6 +1,6 @@
 # PG-80 Crosswave Parameter Programmer for Ensoniq SQ-80 and Ensoniq ESQ1
 
-This repo contains open source hardware and software for the Ensoniq SQ-80 and ESQ-1 hybrid synthesizers, which I have named the "PG-80". It allows you to program up to 63 parameters in your synthesis engine using the 32 knobs on the front panel. It also supports hidden waves if your synth is equipped with an OS that supports them on the front panel.
+This repo contains open source hardware and software for the Ensoniq SQ-80 and ESQ-1 hybrid synthesizers, which I have named the "PG-80". It allows you to program up to 63 parameters in your synthesis engine using the 32 knobs on the front panel. It also supports hidden waves if your synth is equipped with an OS that supports them on the front panel. It also features a MIDI merge feature so you can run an input from your MIDI interface through the programmer to the synth, inserting the programmer in-line so it doesn't add unnecessarily to your workflow or MIDI rats nest.
 
 I'm still tweaking the firmware to improve the knob layout and I have a new housing version in progress to accomodate a larger OLED display, but the current design is debugged and functional.
 
@@ -8,18 +8,23 @@ A BOM will be forthcoming when I have a few minutes to add it.
 
 # Housing
 
-My vision for this unit was always been a sidecar that can sit next to the synth on a stand designed for a 76 key workstation and looks like an extension of the synth to the extent possible.
+My vision for this unit was always been a sidecar that can sit next to the synth on a stand designed for a 76 key workstation and looks like an extension of the synth to the extent possible.  Likely, you could design a smaller housing for desktop, as mine is not necessarily designed
+to minimize its footprint or print time. 
+
+The 3D models for the prototype are will be published here in both Fusion 360 and STL formats.
+
+## Prototype Version (Adafruit 326 and PCB Mounted MIDI Connections)
 
 ![PG-80 Programmer prototype with Ensoniq SQ-80 and Ensonig ESQ-1](https://github.com/trevorj71/SQ-80-Parameter-Programmer/blob/main/images/PG-80_w_Synths.JPEG)
 
-These 3D models will be published here in both raw Fusion 360 and STL formats once they are completed. Likely, you could design a smaller housing for desktop, as mine is not necessarily designed
-to minimize its footprint or print time.
+For my first build, I used PCB mounted MIDI connectors and a PCB that was optimized for production and shipping cost. This left me with limited space between the knob array and the back panel of the unit for an OLED, so I used an Adafruit 326 0.91mm display.  This was fine for prototyping but in practice in the studio it is really hard to read.  Otherwise the knob layout feels good and the overall geometry of the print meets the vision. 
 
-## Prototype Version (Adafruit 326 and PCB Mounted MIDI Connections)
+I did have some slippage in my printer late in this job (which took 5 days) so there is a bit of a bondo job on this, but it works for a prototype.
 
 
 ## In Progress Updgraded Version (Adafruit ... and Panel Mounted MIDI Connecitons)
 
+Build two will switch to a 2.42 inch Adafruit 2719 and panel mounted MIDI connections. Design for that enclosure is under way.
 
 # Glitch Mode (Hidden Waveform) and Shift Switch
 
