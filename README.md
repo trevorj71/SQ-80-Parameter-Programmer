@@ -10,7 +10,7 @@ A BOM will be forthcoming when I have a few minutes to add it.
 
 My vision for this unit was always been a sidecar that can sit next to the synth on a stand designed for a 76 key workstation and looks like an extension of the synth to the extent possible.
 
-![PG-80 Programmer prototype with Ensoniq SQ-80 and Ensonig ESQ-1] https://github.com/trevorj71/SQ-80-Parameter-Programmer/tree/main/images/PG-80_w_Synths.JPEG
+![PG-80 Programmer prototype with Ensoniq SQ-80 and Ensonig ESQ-1](https://github.com/trevorj71/SQ-80-Parameter-Programmer/tree/main/images/PG-80_w_Synths.JPEG)
 
 These 3D models will be published here in both raw Fusion 360 and STL formats once they are completed. Likely, you could design a smaller housing for desktop, as mine is not necessarily designed
 to minimize its footprint or print time.
