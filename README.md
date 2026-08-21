@@ -1,6 +1,6 @@
 # PG-80 Crosswave Parameter Programmer for Ensoniq SQ-80 and Ensoniq ESQ1
 
-This repo contains open source hardware and software for the Ensoniq SQ-80 and ESQ-1 hybrid synthesizers. It allows you to program up to 63 parameters in your synthesis engine using the 32 knobs on the front panel. It also supports hidden waves if your synth is equipped with an OS that supports them on the front panel.
+This repo contains open source hardware and software for the Ensoniq SQ-80 and ESQ-1 hybrid synthesizers, which I have named the "PG-80". It allows you to program up to 63 parameters in your synthesis engine using the 32 knobs on the front panel. It also supports hidden waves if your synth is equipped with an OS that supports them on the front panel.
 
 I'm still tweaking the firmware to improve the knob layout and I have a new housing version in progress to accomodate a larger OLED display, but the current design is debugged and functional.
 
@@ -9,6 +9,9 @@ A BOM will be forthcoming when I have a few minutes to add it.
 # Housing
 
 My vision for this unit was always been a sidecar that can sit next to the synth on a stand designed for a 76 key workstation and looks like an extension of the synth to the extent possible.
+
+![PG-80 Programmer prototype with Ensoniq SQ-80 and Ensonig ESQ-1] https://github.com/trevorj71/SQ-80-Parameter-Programmer/tree/main/images/PG-80_w_Synths.JPEG
+
 These 3D models will be published here in both raw Fusion 360 and STL formats once they are completed. Likely, you could design a smaller housing for desktop, as mine is not necessarily designed
 to minimize its footprint or print time.
 
